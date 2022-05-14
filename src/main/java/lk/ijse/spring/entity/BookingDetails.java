@@ -19,11 +19,8 @@ import java.time.LocalTime;
 public class BookingDetails {
     @Id
     private String bookingId;
-    @Id
     private String userId;
-    @Id
     private String carId;
-    @Id
     private String driverId;
     private String pickUp;
     private String dropOff;

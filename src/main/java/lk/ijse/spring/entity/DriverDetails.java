@@ -19,7 +19,6 @@ import java.time.LocalTime;
 public class DriverDetails {
     @Id
     private String driverId;
-    @Id
     private String carId;
     private String driverName;
     private String driverPassword;

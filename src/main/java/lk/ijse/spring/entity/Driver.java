@@ -20,5 +20,4 @@ public class Driver {
     private int driverAge;
     private String driverAddress;
     private String driverContactNumber;
-    private String driverAvailability;
 }

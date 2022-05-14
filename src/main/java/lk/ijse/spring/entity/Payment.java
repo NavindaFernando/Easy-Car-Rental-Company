@@ -18,11 +18,8 @@ import java.time.LocalDate;
 public class Payment {
     @Id
     private String paymentId;
-    @Id
     private String carId;
-    @Id
     private String userId;
-    @Id
     private String driverId;
     @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate dropOffDate;
