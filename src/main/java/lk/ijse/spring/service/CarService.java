@@ -8,7 +8,7 @@ import java.util.List;
 public interface CarService {
     void saveCar(CarDTO dto);
     void deleteCar(String cid);
-    void updateCar(AdminDTO dto);
-    AdminDTO searchCar(String cid);
+    void updateCar(CarDTO dto);
+    CarDTO searchCar(String cid);
     List<CarDTO> getAllCar();
 }
