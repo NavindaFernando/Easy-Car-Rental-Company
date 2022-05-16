@@ -31,7 +31,7 @@ public class CarServiceImpl implements CarService {
         if (!repo.existsById(dto.getCarId())) {
             repo.save(mapper.map(dto, Car.class));
         } else {
-            throw new RuntimeException("User Already Exist..!");
+            throw new RuntimeException("Car Already Exist..!");
         }
     }
 
