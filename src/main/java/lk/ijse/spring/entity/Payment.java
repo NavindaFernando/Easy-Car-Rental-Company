@@ -22,6 +22,8 @@ public class Payment {
     private String userId;
     private String driverId;
     @JsonFormat(pattern = "yyyy-MM-dd")
+    private LocalDate pickUpDate;
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate dropOffDate;
     @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate dropOffLastDate;
