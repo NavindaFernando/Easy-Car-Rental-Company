@@ -1,5 +1,5 @@
 <h3 align="center">
-Easy Car Rental private limited :blue_car:
+Easy Car Rental Pvt Ltd :blue_car:
 </h3>
 
 ![Frame 1 (1)](https://user-images.githubusercontent.com/86073690/183243880-b05a000e-83ec-4bad-b8c1-7ef9d8256884.jpg)
